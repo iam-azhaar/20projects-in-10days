@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    margin-top: 5rem;
+    background-color: rgb(243, 230, 216);
+    font-family: "Young Serif", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3, ul li, p, tr td, b {
+    color: rgb(95, 87, 78);
+    font-family: "Outfit", sans-serif;
+}
+h2 {
+    color: rgb(133, 70, 50);
+    font-weight: 500;
+}
+h3 {
+    color: rgb(123, 40, 79);
+}
+ul li {
+    margin: 0.625rem 0rem 0.625rem 1.5rem;
+}
+
+.recipe-container {
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 1.125rem;
+}
+
+.recipe-image img {
+    width: 100%;
+    border-radius: 0.75rem;
+}
+
+.header-container, .main-container, .main-footer {
+    margin: 0.625rem 0rem;
+}
+
+.header-container h1, p {
+    margin: 1.25rem 0rem;
+}
+.header-container h1 {
+    font-weight: 500;
+    color: rgb(48, 45, 44);
+}
+
+.recipe-time {
+    padding: 1rem;
+    background-color: rgb(255, 245, 250);
+    border-radius: 0.75rem;
+    /* background-color: rgb(228, 222, 216); */
+}
+.recipe-time h3 {
+    color: rgb(133, 70, 50);
+    font-weight: 700;
+}
+
+.horizontal-line {
+    margin: 1.875rem 0rem;
+    display: block;
+}
+
+.footer-table {
+    width: 100%;
+}
+.footer-table tr td {
+    padding: 0.625rem 1.875rem;
+}
+
+.footer-container {
+    position: relative;
+    top: 1.5rem;
+}
