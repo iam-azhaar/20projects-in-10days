@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(244, 208, 78);
+    font-family: "Figtree", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 18px;
+    box-shadow: 7px 6px #000;
+}
+
+.logo img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.btn-box .btn {
+    font-weight: 700;
+    padding: 4px 10px;
+    background-color: rgb(244, 208, 78);
+    display: inline-block;
+    border-radius: 6px;
+}
+.btn-box p {
+    color: rgb(18, 18, 18);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.btn-box, .content-box {
+    margin: 20px 0px;
+}
+
+.btn, .content-box h2 {
+    margin-bottom: 12px;
+}
+
+.content-box h2 {
+    font-weight: 800;
+    cursor: pointer;
+}
+.content-box h2:active {
+    color: rgb(244, 208, 78);
+}
+
+.content-box p {
+    color: rgb(128, 128, 128);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.container-footer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.footer-icon img {
+    width: 40px;
+}
+.container-footer h4 {
+    font-weight: 800;
+}
+
+.footer-container {
+    position: relative;
+    top: 3rem;
+}
